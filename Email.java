@@ -60,7 +60,7 @@ public class Email {
 	public void setmailboxCapacity(int capacity) {
 		this.mailboxCapacity = capacity;
 	}
-	
+
 	// to generate alternate email
 	public void setAlternameEmail(String altEmail) {
 		this.alternateEmail = altEmail;
@@ -86,3 +86,4 @@ public class Email {
 				" \n MAILBOX CAPACITY : "+ mailboxCapacity + "mb";
 	}
 }
+
