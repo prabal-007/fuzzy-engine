@@ -2,7 +2,6 @@ package email_app;
 import java.util.*;
 
 public class Email {
-
 	private String firstName;
 	private String lastName;
 	private String department;
@@ -29,8 +28,7 @@ public class Email {
 		
 		// concatenate all elements to form email
 		email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + department + "." + companySuffix;
-		// System.out.println("Your Email is : "+email);
-		
+		// System.out.println("Your Email is : "+email);	
 	}
 	
 	// to ask for department	
@@ -41,8 +39,7 @@ public class Email {
 	if(depchoice==1) {	return "sales";  }
 	else if(depchoice == 2) { return "devt";  }
 	else if(depchoice == 3) { return "acct";  }
-	else { return"";	}	
-	
+	else { return""; }	
 	}
 	
 	// to generate random password
